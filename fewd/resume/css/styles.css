@@ -5,10 +5,16 @@ body {
 	font-size: 18px;
 	margin:40px;
 	line-height: 1.5;
-	border: 5px solid;
-	border-color: #C87533;
-	padding: 20px;
+	padding-left: 10%;
+	padding-right:10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-family: sans-serif;
+}
+
+.top {
+	border: 8px solid;
+	border-color: #C87533;
 }
 
 header {
