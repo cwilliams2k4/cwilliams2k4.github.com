@@ -363,6 +363,6 @@ h2 {
 }
 @media all and (min-width: 500px) {
     .subhed {
-        diplay: none
+        display: none
     }
 }
