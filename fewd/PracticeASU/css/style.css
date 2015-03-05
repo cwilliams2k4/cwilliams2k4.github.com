@@ -290,7 +290,7 @@ h2 {
     margin:0
 }
 
-@media(max-width:1000px){
+@media(max-width:800px){
     .m-header nav li{
         padding-top:5px
     }
@@ -323,8 +323,7 @@ h2 {
     .bookends,
     .nav-container,
     .m-header {
-        width: 100%;
-        height: auto
+        width: 100%
     }
 
     .menu {
