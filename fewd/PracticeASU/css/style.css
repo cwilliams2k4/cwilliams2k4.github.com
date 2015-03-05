@@ -1,0 +1,362 @@
+/*!
+ * Project Name: Blank Template
+ * Client: Your Client
+ * Author: Your Name
+ * GA FEWD10, Washington, D.C.
+ */
+
+
+/*******************************************
+ * SETUP
+ *******************************************/
+
+/* Box Model Hack */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+/*******************************************
+ * BASE STYLES
+ *******************************************/
+
+body {
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/*******************************************
+ * FONTS
+ *******************************************/
+
+ .serif {
+    font-family: "Merriweather", serif;
+ }
+
+ .sans {
+    font-family: "Source Sans Pro", sans-serif;
+ }
+
+ .sans-heading {
+    font-family: "Oswald", sans-serif;
+ }
+
+/*******************************************
+ * LAYOUT
+ *******************************************/
+
+/* Center the container */
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.nav-container ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-container ul li {
+    display: inline;
+    padding: 0 8px 5px 8px;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-container ul li a:hover {
+    color: #F9FF00
+}
+
+.special {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.bookends {
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+}
+
+.subhed {
+    background-color: #C6C6C6;
+    padding: 5px;
+    border-top: 5px solid #FFB310;
+}
+
+.belowhed {
+    background-color: #990033;
+    padding: 5px;
+    border-top: 5px solid #FFB310;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 3px solid #FFB310;
+}
+
+h1 {
+    color: #FFB310;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+.strike {
+    color: #999;
+}
+
+.on-top {
+    background-color: rgba(255, 255, 255, .8);
+    width: 30%;
+    float: right;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    box-shadow: 0 0 5px #888;
+}
+
+.shadow {
+    box-shadow: 0 0 2px #888;
+    background-position: center;
+    padding: 50px;
+}
+
+.heading {
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 700;
+}
+
+.copy {
+    margin: 0 0 4px;
+    line-height: 1.5;
+}
+
+.buttong {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #C6C6C6;
+    color: black;
+    padding: 9px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    border-bottom: solid #555 3px;
+}
+
+.buttong:hover {
+    background-color: #555;
+    color: white;
+}
+
+.buttony {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFB310;
+    color: black;
+    padding: 9px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    border-bottom: solid #C6CC00 3px;
+}
+
+.buttony:hover {
+    background-color: #C6CC00;
+}
+
+.column-left { 
+    float: left; 
+    width: 49%; 
+    padding: 25px;
+}
+
+.column-right { 
+    float: right; 
+    width: 49%; 
+    padding: 25px;
+}
+
+.column-center { 
+    display: inline-block; 
+    width: 33%; 
+    padding: 25px;
+    border-left: 1px solid #C6C6C6;
+    border-right: 1px solid #C6C6C6;
+}
+
+.m-header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1001;
+    width:100%;
+    padding:10px 0 5px;
+    background-color:#FFF;
+    border-bottom:4px solid #eaeaeb;
+    border-bottom:4px solid #FFB310
+}
+
+@media(max-width:800px){
+    .m-header{position:static}
+}
+
+.m-header__logo{
+    display:inline-block;
+    margin:4px 5% 0;
+    max-width:203px;
+    width:100%;
+    overflow:hidden
+}
+
+.m-header__logo img{
+    width:100%
+}
+
+@media(max-width:800px){
+    .m-header__logo{
+        display:block;
+        margin:0 auto
+    }
+}
+
+.m-header nav{
+    position:absolute;
+    text-align:center;
+    top:5px;
+    right:25px
+}
+
+@media(max-width:800px){
+    .m-header nav{
+        position:relative;
+        top:auto;
+        right:auto
+    }
+}
+
+.m-header nav ul{
+    margin:0;
+    padding:0
+    }
+
+.m-header nav li{
+    display:inline-block;
+    margin-right:10px;
+    padding-top:15px
+}
+
+.m-header nav li:last-child{
+    margin:0
+}
+
+@media(max-width:800px){
+    .m-header nav li{
+        padding-top:5px
+    }
+}
+
+.m-header nav li a{
+    font:300 12px/1.24 "Gotham SSm A","Gotham SSm B",Gotham,Helvetica,Arial,sans-serif;
+    color:#aaa
+}
+
+/*******************************************
+ * ADDITIONAL STYLES
+ *******************************************/
+
+@media all and (max-width: 1500px) {
+
+ /* Mobile Styles */
+    body {
+        width: 100%;
+        max-width: 1500px;
+    }
+
+    .nav-container {
+        padding: 0;
+        display: block;
+    }
+    .container,
+    .subhed,
+    .on-top,
+    .bookends,
+    .nav-container,
+    .m-header {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+        clear: both;
+    }
+    .menu a {
+        display: block;
+        width: 100%;
+    }
+    .horizontal-nav li {
+        margin-right: 0;
+    }
+}
+@media all and (max-width: 1200px) {
+    .buttong {
+        width: 100%;
+        float: right;
+
+    }
+    .nav-container ul li a {
+        font-size: 1.1em;
+    }
+    .subhed h2 {
+        font-size: 1.1em;
+        text-align: left;
+    }
+}
+@media all and (max-width: 700px) {
+    .column-left,
+    .column-center,
+    .column-right {
+        width: 100%;
+        padding: 20px 20px;  
+        border-bottom: 1px solid black;
+    }
