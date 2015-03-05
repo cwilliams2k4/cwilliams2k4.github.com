@@ -111,11 +111,17 @@ body {
 .subhed {
     background-color: #C6C6C6;
     padding: 5px;
+/*    border-top: 5px solid #FFB310;*/
+}
+
+.maroon {
+    background-color: #990033;
+    padding: 5px;
     border-top: 5px solid #FFB310;
 }
 
-.belowhed {
-    background-color: #990033;
+.gray {
+    background-color: #C6C6C6;
     padding: 5px;
     border-top: 5px solid #FFB310;
 }
@@ -162,6 +168,14 @@ h2 {
 .copy {
     margin: 0 0 4px;
     line-height: 1.5;
+}
+
+
+
+@media(min-width: 1000px) {
+    .bodytext {
+    padding: 0 200px;
+}
 }
 
 .buttong {
@@ -233,9 +247,9 @@ h2 {
     width:100%;
     padding:10px 0 5px;
     background-color:#FFF;
-    border-bottom:4px solid #eaeaeb;
-    border-bottom:4px solid #FFB310
+    border-bottom:4px solid #FFB310;
 }
+
 
 @media(max-width:800px){
     .m-header{position:static}
@@ -365,8 +379,9 @@ div header {
         border-bottom: 1px solid black;
     }
 }
-@media all and (min-width: 500px) {
+/*@media all and (min-width: 500px) {
     .subhed {
         display: inline-block;
-    }
+        position: 
+    }*/
 }
