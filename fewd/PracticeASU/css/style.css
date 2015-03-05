@@ -267,7 +267,7 @@ h2 {
     right:25px
 }
 
-@media(max-width:500px){
+@media(max-width:800px){
     .m-header nav{
         position:relative;
         top:auto;
