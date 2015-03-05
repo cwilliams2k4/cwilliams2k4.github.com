@@ -347,10 +347,10 @@ h2 {
     .nav-container ul li a {
         font-size: 1.1em;
     }
-    .subhed h2 {
+/*    .subhed h2 {
         font-size: 1.1em;
         text-align: left;
-    }
+    }*/
 }
 @media all and (max-width: 700px) {
     .column-left,
