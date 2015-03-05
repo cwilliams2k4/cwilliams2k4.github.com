@@ -360,3 +360,9 @@ h2 {
         padding: 20px 20px;  
         border-bottom: 1px solid black;
     }
+}
+@media all and (min-width: 500px) {
+    .subhed {
+        height: 30px;
+    }
+}
