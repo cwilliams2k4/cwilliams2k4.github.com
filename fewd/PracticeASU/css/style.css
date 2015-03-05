@@ -258,9 +258,9 @@ h2 {
         display:block;
         margin:0 auto
     }
+}
 
-
-    .m-header nav{
+.m-header nav{
     position:absolute;
     text-align:center;
     top:5px;
@@ -273,20 +273,20 @@ h2 {
         top:auto;
         right:auto
     }
+}
 
-
-    .m-header nav ul{
+.m-header nav ul{
     margin:0;
     padding:0
     }
 
-    .m-header nav li{
+.m-header nav li{
     display:inline-block;
     margin-right:10px;
     padding-top:15px
-    }
+}
 
-    .m-header nav li:last-child{
+.m-header nav li:last-child{
     margin:0
 }
 
