@@ -118,6 +118,7 @@ body {
     background-color: #990033;
     padding: 5px;
     border-bottom: 5px solid #FFB310;
+    color: #FFF;
 }
 
 .gray {
@@ -179,7 +180,7 @@ section p {
 }
 
 @media all and (min-width: 800px) {
-   .maroon, .gray {
+   .maroon {
         padding: 70px 0px 0px 0px;
         
     }
@@ -191,6 +192,7 @@ section p {
     padding-right: 50px;
 }*/
 }
+
 
 .buttong {
     display: block;
