@@ -172,23 +172,24 @@ section p {
 
 
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 900px) {
     .copy {
         padding: 0 200px;
     }
 }
 
 @media all and (min-width: 800px) {
-   .maroon {
+   .maroon, .gray {
         padding: 70px 0px 0px 0px;
         
     }
 }
 
-@media all and (max-width: 1000px) {
+/*@media all and (min-width: 400px) {
     .copy {
-    padding: 0 50px;
-}
+    padding-left: 50px;
+    padding-right: 50px;
+}*/
 }
 
 .buttong {
