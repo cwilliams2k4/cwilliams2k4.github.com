@@ -121,6 +121,13 @@ body {
     color: #FFF;
 }
 
+.black {
+    background-color: #000;
+    padding: 5px;
+    border-bottom: 5px solid #FFB310;
+    color: #FFF;
+}
+
 .gray {
     background-color: #C6C6C6;
     padding: 5px;
@@ -177,6 +184,9 @@ section p {
     .copy {
         padding: 0 200px;
     }
+    .twitter {
+        padding: 0 300px;
+    }
 }
 
 @media all and (min-width: 800px) {
@@ -186,11 +196,16 @@ section p {
     }
 }
 
-/*@media all and (min-width: 400px) {
+@media all and (min-width: 500px) {
     .copy {
     padding-left: 50px;
     padding-right: 50px;
-}*/
+ }
+   .twitter {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: auto
+ }
 }
 
 
@@ -361,6 +376,7 @@ div header {
     max-width: 100%; 
     padding-left: 20px;
     padding-right: 20px;
+
 } 
 .embed-container iframe, .embed-container object, .embed-container embed { 
     position: absolute; 
@@ -370,7 +386,10 @@ div header {
     height: 100%; 
 }
 
-
+.twitter_timeline {
+    margin: auto;
+    width: 100%;
+}
 
 
 
