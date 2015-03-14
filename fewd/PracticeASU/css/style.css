@@ -45,9 +45,9 @@
 
 body {
     color: #000;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Roboto";
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.7;
 }
 
 /*******************************************
@@ -76,44 +76,6 @@ body {
     margin: 0 auto;
 }
 
-.nav-container ul {
-    margin: 0;
-    padding: 0;
-    float: right;
-}
-
-.nav-container ul li {
-    display: inline;
-    padding: 0 8px 5px 8px;
-}
-
-.nav-container ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.nav-container ul li a:hover {
-    color: #F9FF00
-}
-
-.special {
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-.bookends {
-    background-color: #000;
-    color: #FFF;
-    padding: 10px;
-}
-
-.subhed {
-    background-color: #C6C6C6;
-    padding: 5px;
-/*    border-top: 5px solid #FFB310;*/
-}
-
 .maroon {
     background-color: #990033;
     padding: 5px;
@@ -134,43 +96,31 @@ body {
     border-bottom: 5px solid #FFB310;
 }
 
-u {
-    text-decoration: none;
-    border-bottom: 3px solid #FFB310;
-}
 
 h1 {
     color: #FFB310;
+    /*font-style: italic;*/
+    font-size: 2em;
+    text-align: center;
+    font-family: "Roboto";
 }
 
 h2 {
-    font-style: italic;
+    font-family: "Roboto";
     text-align: center;
 }
 
-.strike {
-    color: #999;
+.gray a {
+    text-decoration: none;
+    color: #990033;
 }
-
-.on-top {
-    background-color: rgba(255, 255, 255, .8);
-    width: 30%;
-    float: right;
-    padding: 20px;
-    margin: 0 10px 0 10px;
-    box-shadow: 0 0 5px #888;
+.maroon a {
+    text-decoration: none;
+    color: #FFB310;
 }
-
-.shadow {
-    box-shadow: 0 0 2px #888;
-    background-position: center;
-    padding: 50px;
-}
-
-.heading {
-    font-size: 24px;
-    margin: 0 0 5px;
-    font-weight: 700;
+.black a {
+    text-decoration: none;
+    color: #FFB310;
 }
 
 section p {
@@ -190,7 +140,7 @@ section p {
 }
 
 @media all and (min-width: 800px) {
-   .maroon {
+   .top {
         padding: 70px 0px 0px 0px;
         
     }
@@ -209,68 +159,6 @@ section p {
  }
 }
 
-
-.buttong {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #C6C6C6;
-    color: black;
-    padding: 9px;
-    margin-top: 20px;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.7px;
-    border-bottom: solid #555 3px;
-}
-
-.buttong:hover {
-    background-color: #555;
-    color: white;
-}
-
-.buttony {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #FFB310;
-    color: black;
-    padding: 9px;
-    margin-top: 20px;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.7px;
-    border-bottom: solid #C6CC00 3px;
-}
-
-.buttony:hover {
-    background-color: #C6CC00;
-}
-
-.column-left { 
-    float: left; 
-    width: 49%; 
-    padding: 25px;
-}
-
-.column-right { 
-    float: right; 
-    width: 49%; 
-    padding: 25px;
-}
-
-.column-center { 
-    display: inline-block; 
-    width: 33%; 
-    padding: 25px;
-    border-left: 1px solid #C6C6C6;
-    border-right: 1px solid #C6C6C6;
-}
-
 .m-header{
     position: fixed;
     top:0;
@@ -286,6 +174,7 @@ section p {
 .m-header a {
     color: #FFB310;
     text-decoration: none;
+    font: Arial;
 }
 
 .m-footer{
@@ -293,7 +182,7 @@ section p {
     color:#000;
     padding:20px 0;
     text-align:center;
-    font:300 12px/1.24 "Gotham SSm A","Gotham SSm B",Gotham,Helvetica,Arial,sans-serif;
+    font:400 14px/1.24 "Roboto";
 }
 
 .m-footer a{
@@ -361,7 +250,7 @@ section p {
 }
 
 .m-header nav li a{
-    font:300 12px/1.24 "Gotham SSm A","Gotham SSm B",Gotham,Helvetica,Arial,sans-serif;
+    font:300 12px/1.24 "Roboto",Helvetica;
     color:#aaa
 }
 
@@ -407,57 +296,8 @@ div header {
         max-width: 1500px;
     }
 
-    .nav-container {
-        padding: 0;
-        display: block;
-    }
-    .container,
-    .subhed,
-    .on-top,
-    .bookends,
-    .nav-container,
     .m-header {
         width: 100%
     }
-
-    .menu {
-        display: none;
-        clear: both;
-    }
-    .menu a {
-        display: block;
-        width: 100%;
-    }
-    .horizontal-nav li {
-        margin-right: 0;
-    }
 }
-@media all and (max-width: 1200px) {
-    .buttong {
-        width: 100%;
-        float: right;
-
-    }
-    .nav-container ul li a {
-        font-size: 1.1em;
-    }
-/*    .subhed h2 {
-        font-size: 1.1em;
-        text-align: left;
-    }*/
-}
-@media all and (max-width: 700px) {
-    .column-left,
-    .column-center,
-    .column-right {
-        width: 100%;
-        padding: 20px 20px;  
-        border-bottom: 1px solid black;
-    }
-}
-/*@media all and (min-width: 500px) {
-    .subhed {
-        display: inline-block;
-        position: 
-    }*/
 }
