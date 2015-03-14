@@ -96,6 +96,18 @@ body {
     border-bottom: 5px solid #FFB310;
 }
 
+.gray h1 {
+    color: #990033;
+    /*font-style: italic;*/
+    font-size: 2em;
+    text-align: center;
+    font-family: "Roboto";
+}
+.gray h2 {
+    font-family: "Roboto";
+    color: #990033;
+    text-align: left
+}
 
 h1 {
     color: #FFB310;
@@ -163,7 +175,7 @@ section p {
     }
 /*    .m-header__logo {
         content:url(../img/smaller_capital.png);
-    }*/
+    }*/ 
 }
 
 @media all and (min-width: 500px) {
