@@ -161,6 +161,9 @@ section p {
         padding: 70px 0px 0px 0px;
         
     }
+/*    .m-header__logo {
+        content:url(../img/smaller_capital.png);
+    }*/
 }
 
 @media all and (min-width: 500px) {
@@ -226,7 +229,8 @@ section p {
 @media all and (max-width:800px){
     .m-header__logo{
         display:block;
-        margin:0 auto
+        margin:0 auto;
+        content:url(../img/national_capital.png);
     }
 }
 
@@ -264,11 +268,18 @@ section p {
     .m-header nav li{
         padding-top:5px
     }
+    #first {
+        display: none
+    }
+    .m-header__logo {
+
+    }
 }
 
 .m-header nav li a{
-    font:300 12px/1.24 "Roboto",Helvetica;
-    color:#aaa
+    font:300 15px/1.24 "Roboto",Helvetica;
+    color:#990033;
+    font-weight: bold;
 }
 
 div header {
