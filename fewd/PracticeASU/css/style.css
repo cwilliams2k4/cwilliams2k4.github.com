@@ -141,6 +141,10 @@ h2, h3 {
     color: #FFB310;
 }
 
+.gray h1 a {
+    color: #000
+}
+
 section p {
     margin: 0 0 4px;
     line-height: 1.5;
