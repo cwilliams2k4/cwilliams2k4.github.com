@@ -105,16 +105,22 @@ h1 {
     font-family: "Roboto";
 }
 
-h2 {
+h2, h3 {
     font-family: "Roboto";
     text-align: center;
+}
+
+.copy img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gray a {
     text-decoration: none;
     color: #990033;
 }
-.maroon a {
+.maroon a, .maroon h2, .black h2 {
     text-decoration: none;
     color: #FFB310;
 }
@@ -128,6 +134,17 @@ section p {
     line-height: 1.5;
 }
 
+.logoshirts {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45vh;
+    border: 1px solid #FFB310
+}
+
+#shirts{
+    text-align:center;
+}
 
 
 @media all and (min-width: 900px) {
